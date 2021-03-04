@@ -1,4 +1,7 @@
 package fi.oamk.chat
 
-data class Message(val text: String, val author: String) {
+import com.google.firebase.auth.FirebaseUser
+import java.util.*
+
+data class Message(val message: String, val author: FirebaseUser, val time: Date) {
 }

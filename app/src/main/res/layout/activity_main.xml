@@ -10,6 +10,9 @@
         android:id="@+id/messageList"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingTop="20dp"
+        android:paddingBottom="20px"
         app:layout_constraintBottom_toTopOf="@+id/messageText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -25,6 +28,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/enter_message"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
