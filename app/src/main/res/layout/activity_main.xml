@@ -10,7 +10,7 @@
         android:id="@+id/messageList"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
         android:paddingTop="20dp"
         android:paddingBottom="20px"
         app:layout_constraintBottom_toTopOf="@+id/messageText"
